@@ -1,4 +1,4 @@
 # Edit this file to introduce tasks to be run by cron.
 # Runs the bro-otx python every hour
 #
-0 * * * * cd /opt/bro/share/bro/bro-otx/ && /usr/bin/python /opt/bro/share/bro/bro-otx/bro-otx.py
+0 * * * * cd /opt/bro/share/bro/bro-otx/scripts/ && /usr/bin/python /opt/bro/share/bro/bro-otx/scripts/bro-otx.py
